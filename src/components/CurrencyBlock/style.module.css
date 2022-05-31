@@ -1,0 +1,67 @@
+.block {
+  width: 400px;
+  height: 80px;
+  background-color: #ffffff;
+  border: solid 1px rgb(68, 104, 136);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: Roboto;
+}
+
+.title {
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  color: gray;
+  margin-bottom: 7px;
+}
+
+.content {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.valutes {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.growth_rate_up {
+  color: green;
+  display: flex;
+  align-items: center;
+}
+
+.growth_rate_down {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+
+.span1 {
+  width: 100px;
+  text-align: center;
+}
+
+.span2 {
+  width: 150px;
+  text-align: center;
+}
+
+.exchange_span {
+  width: 70px;
+  text-align: center;
+}
+
+.exchange_span:hover {
+  cursor: pointer;
+}

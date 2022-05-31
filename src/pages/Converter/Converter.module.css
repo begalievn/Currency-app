@@ -1,0 +1,39 @@
+.container {
+  width: 500px;
+  height: 100px;
+  background-color: rgb(235, 242, 227);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: solid 1px rgb(54, 93, 127);
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.left_container {
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.left {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.change:hover {
+  cursor: pointer;
+}
+
+.right_container {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.right {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
